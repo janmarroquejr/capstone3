@@ -1,0 +1,9 @@
+#background {
+  background-image: url("/images/bg.jpg");
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  filter: blur(2px);
+
+}

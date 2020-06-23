@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reserve {
+  transform: translateY(3%);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 2%;
+  color: white;
+}
+
+#restricted {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 40;
+}
+
+#room-img {
+  max-height: 150px;
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.admin-details{
+  color: white;
+  font-weight: bold;
+}
+
+.username-dropdown {
+  color: white !important;
+}
+
+#navbar {
+  background-color: #545454;
+}
+
+#brand {
+  color: #ffffff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ffd700 0px 0px 20px, #ffd700 0px 0px 30px, #ffd700 0px 0px 40px,
+    #ffd700 0px 0px 50px, #ffd700 0px 0px 75px;
+  font-size: 30px;
+}
+
+#loading-icon {
+  position: fixed;
+  left: 45%;
+  top: 45%;
+}
+
+#user-list {
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  padding: 1rem;
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  #loading-icon {
+    position: fixed;
+    left: 30%;
+    top: 40%;
+  }
+}
+
+.carousel-img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#main-carousel {
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  #loading-icon {
+    position: fixed;
+    left: 38%;
+    top: 40%;
+  }
+  .login-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem 1rem;
+    border-radius: 20px;
+  }
+  .login-box h1 {
+    float: left;
+    font-size: 20px;
+    border-bottom: 6px solid #fff;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color: white;
+  }
+}
+
+#edit-form {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+#edit-form form {
+  padding: 1rem;
+}
+
+#edit-form label {
+  color: white;
+}
+
+#loading-icon i {
+  font-size: 90px;
+  color: gray;
+}
+
+#navbar {
+  -webkit-box-shadow: 0px 6px 15px 2px #000000;
+  box-shadow: 0px 6px 15px 2px #000000;
+}
+
+.links {
+  color: white;
+}
+
+#room-card {
+  background: rgba(173, 13, 173, 0.705);
+  padding: 1rem;
+}
+
+#App {
+  font-family: sans-serif;
+}
+
+#booking-warning {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.login-box {
+  width: 50%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem 1rem;
+  border-radius: 20px;
+}
+
+.date-picker {
+  margin-bottom: 1rem;
+}
+
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #fff;
+  margin-bottom: 50px;
+  padding: 13px 0;
+  color: white;
+}
+
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.textbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.login-btn {
+  width: 100%;
+  background: none;
+  border: 2px solid #fff;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: #000;
+  background-color: white;
+}
+
+.home-button {
+  width: auto;
+  background: none;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  color: #000;
+  background-color: #ffd700;
+}
+
+#footer {
+  background-color: #ffd700;
+  position: sticky;
+}
